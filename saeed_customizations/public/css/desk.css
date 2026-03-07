@@ -1,4 +1,4 @@
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
     body .container {
         width: 100% !important;
         max-width: 100% !important;
@@ -18,5 +18,8 @@
 }
 
 .navbar {
-    background: #1e6821 !important;
+    background: #04738e !important;
 }
+header li a {
+    color: #fff;
+} */
