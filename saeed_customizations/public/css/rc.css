@@ -1,0 +1,39 @@
+.rc_contact_card {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 10px;
+    width: 500px;
+    z-index: 100;
+    border: 2px solid #1e6821;
+    border-bottom: none;
+    border-radius: 10px 10px 0 0;
+}
+.rc_contact_header {
+    padding: 10px;
+    background-color: #1e6821;
+    /*border-radius: 10px 10px 0 0;*/
+    color: #fff;
+}
+.rc_contact_body {
+    display: none;
+    padding: 10px;
+    background-color: #fff;
+}
+.rc_contact_header input, .rc_contact_header textarea {
+    width: 100%;
+}
+.rc_contact_card .input-with-feedback.form-control {
+    border: 1px solid #9c9c9c;
+    margin-bottom: 5px;
+}
+.rc_alert_box {
+    background-color: #FFECB3;
+    border: 1px solid #FFC107;
+    border-radius: 10px;
+    display: none;
+    width: 100%;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}

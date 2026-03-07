@@ -1,0 +1,22 @@
+@media (min-width: 768px) {
+    body .container {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    .page-container:not(#page-Workspaces) .layout-side-section {
+        display: none;
+    }
+}
+@media (min-width: 576px) {
+    body .container {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    .page-container:not(#page-Workspaces) .layout-side-section {
+        display: none;
+    }
+}
+
+.navbar {
+    background: #1e6821 !important;
+}
