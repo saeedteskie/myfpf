@@ -17,6 +17,9 @@
     }
 }
 
+.navbar-home img {
+    max-height: 45px !important;
+}
 /* .navbar {
     background: #04738e !important;
 }
