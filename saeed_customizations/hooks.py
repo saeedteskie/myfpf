@@ -6,7 +6,7 @@ app_description = "Saeed"
 app_email = "st@helpmobility.ca"
 app_license = "mit"
 
-asset_version = "1.2.37";
+asset_version = "1.1.1";
 
 # app_include_js = [
 #     "assets/saeed_customizations/js/desk.js?version=" + asset_version, 
