@@ -2,7 +2,7 @@ import concurrent.futures
 import requests
 import frappe
 
-
+@frappe.whitelist()
 def make_get_request_with_timeout(url, params=None, headers=None, timeout_seconds=10):
     """
     Drop-in replacement for frappe.make_get_request with a hard timeout.
